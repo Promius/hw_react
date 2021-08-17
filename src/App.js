@@ -14,7 +14,7 @@ function App() {
         style={{
           width: 400,
           height: 100,
-          color: "red",
+          color: "orange",
         }}
       />
 
