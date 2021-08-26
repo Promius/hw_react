@@ -1,0 +1,61 @@
+.messageList {
+  width: 100%;
+  height: 95%;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: auto;
+}
+.messageList .myMessageBlock {
+  margin-bottom: 15px;
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.messageList .myMessageBlock .myMessageTag {
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 13px;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.messageList .myMessageBlock .myMessage {
+  font-weight: 300;
+  color: #fff;
+  border-radius: 11.5px;
+  padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(110, 110, 110, 0.5);
+}
+.messageList .botMessageBlock {
+  margin-bottom: 15px;
+  margin-right: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.messageList .botMessageBlock .botMessageTag {
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 13px;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.messageList .botMessageBlock .botMessage {
+  font-weight: 300;
+  color: #fff;
+  border-radius: 11.5px;
+  padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(110, 110, 110, 0.5);
+}/*# sourceMappingURL=MessageList.css.map */
