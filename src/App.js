@@ -32,7 +32,7 @@ function App() {
         setBotMessagesArray(() => [
           {
             botMessage: 'Сообщение отправлено!',
-            author: 'Chat-bot',
+            author: 'bot',
           },
         ]);
       }, 1500);
